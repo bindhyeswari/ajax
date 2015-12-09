@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <script>
+
+        var ajaxFormatConverter = function () {
+
+        };
+
+        ajaxFormatConverter.urlencodedToJSON = function (urlencoded) {
+            // username=james&useremail=james%40gmail.com --> {"name":"Manali Nirhali","type":"UI Developer"}
+            return JSON.stringify({});
+        };
+
+        ajaxFormatConverter.JSONToUrlEncoded = function () {
+            // {"name":"Manali Nirhali","type":"UI Developer"} --> username=james&useremail=james%40gmail.com
+           return ''; // x-www-form-urlencoded
+        };
+
+
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>
